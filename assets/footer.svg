@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ef4444" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#ef4444" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t{font:500 18px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#d1d5db;letter-spacing:2px}
+    .s{font:400 13px Consolas,'Courier New',monospace;fill:#6b7280}
+    .pulse{animation:pulse 2.4s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+  </style>
+  <rect width="1200" height="110" rx="16" fill="#0a0a0a"/>
+  <rect x="100" y="0" width="1000" height="2" fill="url(#line)" class="pulse"/>
+  <text x="600" y="52" text-anchor="middle" class="t">THANKS FOR VISITING · LET'S BUILD SOMETHING RELIABLE</text>
+  <text x="600" y="82" text-anchor="middle" class="s">Sri Lanka (UTC+5:30) · open to remote work</text>
+</svg>

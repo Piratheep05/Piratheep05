@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140">
+  <style>
+    .q{font:italic 500 24px Georgia,'Times New Roman',serif;fill:#f3f4f6}
+    .a{font:400 15px Consolas,'Courier New',monospace;fill:#f87171;letter-spacing:2px}
+    .mark{font:700 90px Georgia,serif;fill:#ef4444;opacity:.25}
+    .fade{opacity:0;animation:in 1.2s ease-out forwards}
+    .d2{animation-delay:.5s}
+    @keyframes in{to{opacity:1}}
+  </style>
+  <rect width="900" height="140" rx="14" fill="#0a0a0a" stroke="#ef4444" stroke-opacity=".5"/>
+  <text x="34" y="92" class="mark">“</text>
+  <text x="450" y="66" text-anchor="middle" class="q fade">Preserve what works. Modernise the rest. Ship without downtime.</text>
+  <text x="450" y="104" text-anchor="middle" class="a fade d2">— HOW I APPROACH LEGACY SYSTEMS</text>
+</svg>
